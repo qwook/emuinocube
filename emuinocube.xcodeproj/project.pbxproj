@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3252E3A1802CD98007EFAB8 /* EmuinoCube_spi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3252E381802CD98007EFAB8 /* EmuinoCube_spi.cpp */; };
+		B35926EF1806492300EE926D /* EmuinoCube_fs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B35926ED1806492200EE926D /* EmuinoCube_fs.cpp */; };
+		B35926F21806899700EE926D /* EmuinoSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B35926F01806899700EE926D /* EmuinoSDL.cpp */; };
+		B35926F81807A99200EE926D /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B35926F71807A99200EE926D /* libSDL2.dylib */; };
+		B35926FA1807A9B500EE926D /* libSDL2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B35926F71807A99200EE926D /* libSDL2.dylib */; };
+		B377925D17F971B600965A52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377925C17F971B600965A52 /* main.cpp */; };
+		B377925F17F971B600965A52 /* emuinocube.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B377925E17F971B600965A52 /* emuinocube.1 */; };
+		B377927817F971FB00965A52 /* EmuinoCube_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927117F971FA00965A52 /* EmuinoCube_core.cpp */; };
+		B377927917F971FB00965A52 /* EmuinoCube_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927217F971FB00965A52 /* EmuinoCube_file.cpp */; };
+		B377927A17F971FB00965A52 /* EmuinoCube_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927317F971FB00965A52 /* EmuinoCube_mem.cpp */; };
+		B377927B17F971FB00965A52 /* EmuinoCube_rpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927417F971FB00965A52 /* EmuinoCube_rpc.cpp */; };
+		B377927C17F971FB00965A52 /* EmuinoCube_system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927517F971FB00965A52 /* EmuinoCube_system.cpp */; };
+		B377927D17F971FB00965A52 /* EmuinoCube_usb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927617F971FB00965A52 /* EmuinoCube_usb.cpp */; };
+		B377927E17F971FB00965A52 /* EmuinoCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B377927717F971FB00965A52 /* EmuinoCube.cpp */; };
+		B377928217F9845A00965A52 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = B377927F17F97DEF00965A52 /* data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B35926F91807A9A300EE926D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 11;
+			files = (
+				B35926FA1807A9B500EE926D /* libSDL2.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377925717F971B600965A52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B377925F17F971B600965A52 /* emuinocube.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B377928117F9845300965A52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				B377928217F9845A00965A52 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3252E381802CD98007EFAB8 /* EmuinoCube_spi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EmuinoCube_spi.cpp; sourceTree = "<group>"; };
+		B3252E391802CD98007EFAB8 /* EmuinoCube_spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuinoCube_spi.h; sourceTree = "<group>"; };
+		B35926ED1806492200EE926D /* EmuinoCube_fs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EmuinoCube_fs.cpp; sourceTree = "<group>"; };
+		B35926EE1806492200EE926D /* EmuinoCube_fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuinoCube_fs.h; sourceTree = "<group>"; };
+		B35926F01806899700EE926D /* EmuinoSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoSDL.cpp; path = ../EmuinoSDL.cpp; sourceTree = "<group>"; };
+		B35926F11806899700EE926D /* EmuinoSDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmuinoSDL.h; path = ../EmuinoSDL.h; sourceTree = "<group>"; };
+		B35926F31807A4E800EE926D /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug/SDL2.framework"; sourceTree = "<group>"; };
+		B35926F51807A5F500EE926D /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = "../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug/libSDL2.a"; sourceTree = "<group>"; };
+		B35926F71807A99200EE926D /* libSDL2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSDL2.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug/libSDL2.dylib"; sourceTree = "<group>"; };
+		B377925917F971B600965A52 /* emuinocube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = emuinocube; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377925C17F971B600965A52 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.cpp; sourceTree = "<group>"; };
+		B377925E17F971B600965A52 /* emuinocube.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = emuinocube.1; sourceTree = "<group>"; };
+		B377926617F971EF00965A52 /* DuinoCube_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_core.h; path = ../../../duinocube/Duinocube/DuinoCube_core.h; sourceTree = "<group>"; };
+		B377926717F971EF00965A52 /* DuinoCube_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_defs.h; path = ../../../duinocube/Duinocube/DuinoCube_defs.h; sourceTree = "<group>"; };
+		B377926817F971EF00965A52 /* DuinoCube_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_file.h; path = ../../../duinocube/Duinocube/DuinoCube_file.h; sourceTree = "<group>"; };
+		B377926917F971EF00965A52 /* DuinoCube_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_mem.h; path = ../../../duinocube/Duinocube/DuinoCube_mem.h; sourceTree = "<group>"; };
+		B377926A17F971EF00965A52 /* DuinoCube_rpc_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_rpc_file.h; path = ../../../duinocube/Duinocube/DuinoCube_rpc_file.h; sourceTree = "<group>"; };
+		B377926B17F971EF00965A52 /* DuinoCube_rpc_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_rpc_mem.h; path = ../../../duinocube/Duinocube/DuinoCube_rpc_mem.h; sourceTree = "<group>"; };
+		B377926C17F971EF00965A52 /* DuinoCube_rpc_usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_rpc_usb.h; path = ../../../duinocube/Duinocube/DuinoCube_rpc_usb.h; sourceTree = "<group>"; };
+		B377926D17F971EF00965A52 /* DuinoCube_rpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_rpc.h; path = ../../../duinocube/Duinocube/DuinoCube_rpc.h; sourceTree = "<group>"; };
+		B377926E17F971EF00965A52 /* DuinoCube_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_system.h; path = ../../../duinocube/Duinocube/DuinoCube_system.h; sourceTree = "<group>"; };
+		B377926F17F971EF00965A52 /* DuinoCube_usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube_usb.h; path = ../../../duinocube/Duinocube/DuinoCube_usb.h; sourceTree = "<group>"; };
+		B377927017F971EF00965A52 /* DuinoCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuinoCube.h; path = ../../../duinocube/Duinocube/DuinoCube.h; sourceTree = "<group>"; };
+		B377927117F971FA00965A52 /* EmuinoCube_core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_core.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_core.cpp; sourceTree = "<group>"; };
+		B377927217F971FB00965A52 /* EmuinoCube_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_file.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_file.cpp; sourceTree = "<group>"; };
+		B377927317F971FB00965A52 /* EmuinoCube_mem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_mem.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_mem.cpp; sourceTree = "<group>"; };
+		B377927417F971FB00965A52 /* EmuinoCube_rpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_rpc.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_rpc.cpp; sourceTree = "<group>"; };
+		B377927517F971FB00965A52 /* EmuinoCube_system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_system.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_system.cpp; sourceTree = "<group>"; };
+		B377927617F971FB00965A52 /* EmuinoCube_usb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube_usb.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube_usb.cpp; sourceTree = "<group>"; };
+		B377927717F971FB00965A52 /* EmuinoCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuinoCube.cpp; path = ../../../duinocube/Duinocube/EmuinoCube/EmuinoCube.cpp; sourceTree = "<group>"; };
+		B377927F17F97DEF00965A52 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../duinocube/examples/landscape/data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B377925617F971B600965A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35926F81807A99200EE926D /* libSDL2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B377925017F971B600965A52 = {
+			isa = PBXGroup;
+			children = (
+				B35926F51807A5F500EE926D /* libSDL2.a */,
+				B35926F71807A99200EE926D /* libSDL2.dylib */,
+				B35926F31807A4E800EE926D /* SDL2.framework */,
+				B377925B17F971B600965A52 /* emuinocube */,
+				B377925A17F971B600965A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B377925A17F971B600965A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B377925917F971B600965A52 /* emuinocube */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B377925B17F971B600965A52 /* emuinocube */ = {
+			isa = PBXGroup;
+			children = (
+				B377926517F971DB00965A52 /* duinocube */,
+				B377927117F971FA00965A52 /* EmuinoCube_core.cpp */,
+				B377927217F971FB00965A52 /* EmuinoCube_file.cpp */,
+				B377927317F971FB00965A52 /* EmuinoCube_mem.cpp */,
+				B377927417F971FB00965A52 /* EmuinoCube_rpc.cpp */,
+				B377927517F971FB00965A52 /* EmuinoCube_system.cpp */,
+				B377927617F971FB00965A52 /* EmuinoCube_usb.cpp */,
+				B377927717F971FB00965A52 /* EmuinoCube.cpp */,
+				B3252E381802CD98007EFAB8 /* EmuinoCube_spi.cpp */,
+				B3252E391802CD98007EFAB8 /* EmuinoCube_spi.h */,
+				B35926ED1806492200EE926D /* EmuinoCube_fs.cpp */,
+				B35926EE1806492200EE926D /* EmuinoCube_fs.h */,
+				B35926F01806899700EE926D /* EmuinoSDL.cpp */,
+				B35926F11806899700EE926D /* EmuinoSDL.h */,
+				B377925C17F971B600965A52 /* main.cpp */,
+				B377925E17F971B600965A52 /* emuinocube.1 */,
+				B377927F17F97DEF00965A52 /* data */,
+			);
+			path = emuinocube;
+			sourceTree = "<group>";
+		};
+		B377926517F971DB00965A52 /* duinocube */ = {
+			isa = PBXGroup;
+			children = (
+				B377926617F971EF00965A52 /* DuinoCube_core.h */,
+				B377926717F971EF00965A52 /* DuinoCube_defs.h */,
+				B377926817F971EF00965A52 /* DuinoCube_file.h */,
+				B377926917F971EF00965A52 /* DuinoCube_mem.h */,
+				B377926A17F971EF00965A52 /* DuinoCube_rpc_file.h */,
+				B377926B17F971EF00965A52 /* DuinoCube_rpc_mem.h */,
+				B377926C17F971EF00965A52 /* DuinoCube_rpc_usb.h */,
+				B377926D17F971EF00965A52 /* DuinoCube_rpc.h */,
+				B377926E17F971EF00965A52 /* DuinoCube_system.h */,
+				B377926F17F971EF00965A52 /* DuinoCube_usb.h */,
+				B377927017F971EF00965A52 /* DuinoCube.h */,
+			);
+			name = duinocube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B377925817F971B600965A52 /* emuinocube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377926217F971B600965A52 /* Build configuration list for PBXNativeTarget "emuinocube" */;
+			buildPhases = (
+				B377925517F971B600965A52 /* Sources */,
+				B377925617F971B600965A52 /* Frameworks */,
+				B377925717F971B600965A52 /* CopyFiles */,
+				B377928117F9845300965A52 /* CopyFiles */,
+				B35926F91807A9A300EE926D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emuinocube;
+			productName = emuinocube;
+			productReference = B377925917F971B600965A52 /* emuinocube */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B377925117F971B600965A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Henry Tran";
+			};
+			buildConfigurationList = B377925417F971B600965A52 /* Build configuration list for PBXProject "emuinocube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B377925017F971B600965A52;
+			productRefGroup = B377925A17F971B600965A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B377925817F971B600965A52 /* emuinocube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B377925517F971B600965A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377925D17F971B600965A52 /* main.cpp in Sources */,
+				B377927817F971FB00965A52 /* EmuinoCube_core.cpp in Sources */,
+				B377927917F971FB00965A52 /* EmuinoCube_file.cpp in Sources */,
+				B377927A17F971FB00965A52 /* EmuinoCube_mem.cpp in Sources */,
+				B377927B17F971FB00965A52 /* EmuinoCube_rpc.cpp in Sources */,
+				B377927C17F971FB00965A52 /* EmuinoCube_system.cpp in Sources */,
+				B377927D17F971FB00965A52 /* EmuinoCube_usb.cpp in Sources */,
+				B377927E17F971FB00965A52 /* EmuinoCube.cpp in Sources */,
+				B3252E3A1802CD98007EFAB8 /* EmuinoCube_spi.cpp in Sources */,
+				B35926EF1806492300EE926D /* EmuinoCube_fs.cpp in Sources */,
+				B35926F21806899700EE926D /* EmuinoSDL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B377926017F971B600965A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B377926117F971B600965A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B377926317F971B600965A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B377926417F971B600965A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/SDL-eyodkroeaebfowfwsgqkdmkorjyr/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B377925417F971B600965A52 /* Build configuration list for PBXProject "emuinocube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377926017F971B600965A52 /* Debug */,
+				B377926117F971B600965A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377926217F971B600965A52 /* Build configuration list for PBXNativeTarget "emuinocube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377926317F971B600965A52 /* Debug */,
+				B377926417F971B600965A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B377925117F971B600965A52 /* Project object */;
+}
